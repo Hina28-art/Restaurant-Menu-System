@@ -1,0 +1,10 @@
+The Menu class manages a collection of MenuItem objects using an ArrayList, allowing for dynamic management of the menu. 
+
+      1) Add Items: Users can add new MenuItem objects to the list, allowing for an expanded menu with various offerings.
+      2) Remove Items: While the functionality is present in the code, it is not currently utilized, meaning users cannot remove items from the menu at this stage.
+      3) Display Menu: The class provides a method to display all menu items, ensuring users can easily view the current offerings available at the restaurant.
+
+The main class, RestaurantMenuSystem, captures user input using a Scanner to add new items or display the menu. The MenuItem class encapsulates each item’s name, 
+description, and price, providing a formatted string representation via the toString method. The Menu class manages a collection of MenuItem objects with methods 
+to add and display items, though removal functionality is not utilized. The program runs in a loop, prompting users until they choose to exit, showcasing basic 
+object-oriented programming principles and offering an intuitive way to handle restaurant menus.
